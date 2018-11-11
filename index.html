@@ -1,0 +1,31 @@
+<!DOCTYPE>
+<html>
+    <head>
+        <title>Sample form</title>
+        <script src="script.js"></script>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+    <form id = "quiz" name = "quiz">
+        <p>Who is known for designing IS-IS protocol?</p>
+        <input id = "textbox" type = "text" name = "question1">
+        
+        <p>Who is known for computing in NASA in the 1950s?</p>
+        <input type = "radio" id = "mc" name = "question3" value = "Annie Easley"> Annie Easley<br>
+        <input type = "radio" id = "mc" name = "question3" value = "EdithClarke"> Edith Clarke<br>
+        <input type = "radio" id = "mc" name = "question3" value = "Cathy Tilton"> Cathy Tilton<br>
+        
+        <p>Who is vice president of Standards and Emerging Technologies at Daon?</p>
+        <input type = "radio" id = "mc" name = "question4" value = "Judy Staveley"> Annie Easley<br>
+        <input type = "radio" id = "mc" name = "question4" value = "Radia Perlman"> Edith Clarke<br>
+        <input type = "radio" id = "mc" name = "question4" value = "Cathy Tilton"> Cathy Tilton<br> <br>
+        
+<input id = "button" type = "button" value = "I'm finished!" onclick = "check();">
+    </form>
+    <div id="after_submit">
+      <p id="number_correct"></p>
+      <p id="message"></p>
+    </div>
+        
+    </body>
+</html>
